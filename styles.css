@@ -319,26 +319,21 @@ h3 {
 
 /* Modal area */
 
-form {
-    margin-top: 2px; /* Adjust the margin as needed to move the form closer to the "leave-contacts" text */
+.form-group {
+    margin-bottom: 10px; /* Adjust margin as needed to control space between labels and inputs */
 }
 
-/* Label styles */
-label {
+form label {
+    display: block; /* Labels are displayed as block elements to position them on top of inputs */
     font-family: "Roboto", sans-serif;
     font-size: 12px;
     font-weight: 400;
-    /* line-height: 14px; */
+    line-height: 14px;
     letter-spacing: 0.04em;
     text-align: left;
     color: #8E8F99;
-    padding: 10px 0 0 0;
-}
-
-/* Adjust the label position */
-.label {
-    display: block;
-    margin: 0px 0px 2px 5px; /* Adjust margin as needed for spacing between labels and inputs */
+    margin-bottom: 5px; /* Adjust margin as needed for spacing between labels and inputs */
+    padding: 5px 0 0 5px;
 }
 
 .with-icon {
@@ -378,13 +373,41 @@ label {
 /* Input field styles */
 #name,
 #phone_number,
-#user_email,
-#comment {
+#user_email {
     width: 360px;
     height: 40px;
     top: 84px;
     border-radius: 4px;
     border: 1px solid #2E2F4266
+}
+
+#comment {
+    width: 400px;
+    height: 120px;
+    top: 84px;
+    border-radius: 4px;
+    border: 1px solid #2E2F4266
+}
+
+.terms-conditions {
+    text-align: left; /* Set the text alignment to left */
+}
+
+.terms-conditions input[type="checkbox"] {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px; /* Adjust margin as needed for spacing between the checkbox and the label */
+}
+
+.terms-conditions label {
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #8E8F99;
 }
 
 /* Change icon color when the input is active (focused) */
