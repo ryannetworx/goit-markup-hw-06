@@ -324,15 +324,89 @@ h3 {
 
 .icon-name {
     background-image: url('images/img/name-icon.png');
+    width: 5px;
+    height: 5px;
+    top: 5px;
+    left: 3px;
+    padding: 20px, 0px, 3px, 0px;
+    color: #2E2F42; /* Default icon color */
 }
 
 .icon-phone {
     background-image: url('images/img/phone-icon.png');
+    width: 13px;
+    height: 13px;
+    top: 5px;
+    left: 3px;
+    color: #2E2F42; /* Default icon color */
 }
 
 .icon-email {
     background-image: url('images/img/email-icon.png');
+    width: 15px;
+    height: 13px;
+    top: 5px;
+    left: 3px;
+    color: #2E2F42; /* Default icon color */
 }
+
+/* input box font styles */
+#name,
+#phone_number,
+#user_email,
+#comment,
+#accept {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    align-items: left;
+    color: #8E8F99;
+    ;
+}
+
+/* Input label styles */
+#name-label,
+#phone_number-label,
+#user_email-label,
+#comment-label {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    align-items: left;
+    color: #8E8F99;
+}
+
+/* Input field styles */
+#name,
+#phone_number,
+#user_email,
+#comment {
+    width: 360px;
+    height: 58px;
+    top: 84px;
+    border-radius: 4px;
+    border: 1px solid #2E2F4266
+}
+
+/* Change icon color when the input is active (focused) */
+.with-icon input:focus + .icon-name {
+    color: #4D5AE5; /* Icon color when the input is active */
+}
+
+.with-icon input:focus + .icon-phone {
+    color: #4D5AE5; /* Icon color when the input is active */
+}
+
+.with-icon input:focus + .icon-email {
+    color: #4D5AE5; /* Icon color when the input is active */
+}
+
 
 /* END OF BANNER */
 
