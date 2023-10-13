@@ -314,7 +314,24 @@ h3 {
     text-align: center;
     padding: 20px;
     color: #2E2F42;
+}
 
+.with-icon {
+    padding-left: 40px; /* Adjust this value as needed to make room for the icon */
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.icon-name {
+    background-image: url('images/img/name-icon.png');
+}
+
+.icon-phone {
+    background-image: url('images/img/phone-icon.png');
+}
+
+.icon-email {
+    background-image: url('images/img/email-icon.png');
 }
 
 /* END OF BANNER */

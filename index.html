@@ -304,17 +304,23 @@
     <!-- Add your content for the modal here -->
     <p class="leave-contacts">Leave your contacts and we will call you back</p>
     <form action="#" method="post">
-        <label for="name">Name</label>
-            <input type="text" name="name" id="name" required>
+        <div class="input-container">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required class="with-icon icon-name">
+        </div>
 
-        <label for="phone_number">Phone</label>
-            <input type="tel" name="phone_number" id="phone_number" required>
+        <div class="input-container">
+            <label for="phone_number">Phone</label>
+            <input type="tel" name="phone_number" id="phone_number" required class="with-icon icon-phone">
+        </div>
 
-        <label for="user_email">Email</label>
-            <input type="email" name="email" id="user_email" required>
+        <div class="input-container">
+            <label for="user_email">Email</label>
+            <input type="email" name="email" id="user_email" required class="with-icon icon-email">
+        </div>
 
         <label for="comment">Comment</label>
-            <textarea name="comment" id="comment" rows="4"></textarea>
+            <textarea name="comment" id="comment" rows="4" placeholder="Text input"></textarea>
     
             <div class="terms-conditions">
                 <input type="checkbox" name="accept" id="accept" required>
