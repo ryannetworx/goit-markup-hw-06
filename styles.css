@@ -409,6 +409,27 @@ form label {
     color: #8E8F99;
 }
 
+.send {
+    width: 169px;
+    height: 56px;
+    top: 584px;
+    left: 635px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    gap: 10px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 20px;
+}
+
 /* Change icon color when the input is active (focused) */
 .with-icon input:focus + .icon-name {
     color: #4D5AE5; /* Icon color when the input is active */
