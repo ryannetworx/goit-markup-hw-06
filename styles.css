@@ -394,6 +394,8 @@ form label {
     display: inline-block;
     vertical-align: middle;
     margin-right: 5px; /* Adjust margin as needed for spacing between the checkbox and the label */
+    width: 16px;
+    height: 16px;
 }
 
 .terms-conditions label {
