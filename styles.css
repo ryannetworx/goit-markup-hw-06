@@ -337,15 +337,14 @@ form label {
 }
 
 .with-icon {
-    padding-left: 40px; /* Adjust this value as needed to make room for the icon */
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: 10px center;
+    padding-left: 35px;
+    background-size: 20px 20px; /* Set the width and height of the background image */
 }
 
 .icon-name {
     background-image: url('images/img/name-icon.png');
-    width: 5px;
-    height: 5px;
     top: 5px;
     left: 3px;
     padding: 20px, 0px, 3px, 0px;
@@ -354,8 +353,6 @@ form label {
 
 .icon-phone {
     background-image: url('images/img/phone-icon.png');
-    width: 13px;
-    height: 13px;
     top: 5px;
     left: 3px;
     color: #2E2F42; /* Default icon color */
@@ -363,8 +360,6 @@ form label {
 
 .icon-email {
     background-image: url('images/img/email-icon.png');
-    width: 15px;
-    height: 13px;
     top: 5px;
     left: 3px;
     color: #2E2F42; /* Default icon color */
@@ -382,11 +377,13 @@ form label {
 }
 
 #comment {
-    width: 400px;
+    width: 380px;
     height: 120px;
     top: 84px;
     border-radius: 4px;
-    border: 1px solid #2E2F4266
+    border: 1px solid #2E2F4266;
+    padding-top: 10px; /* Set the top margin to 5px */
+    padding-left: 20px; /* Set the left margin to 5px */
 }
 
 .terms-conditions {
