@@ -303,25 +303,27 @@
     <button id="closeModalBtn" class="close-button">×</button>
     <!-- Add your content for the modal here -->
     <p class="leave-contacts">Leave your contacts and we will call you back</p>
-    <form action="">
-        <label for="full-name">Name</label>
-        <input type="text" name="name" id="name" />
+    <form action="#" method="post">
+        <label for="name">Name</label>
+            <input type="text" name="name" id="name" required>
 
-        <label for="phone-number">Phone</label>
-        <input type="tel" name="phone_number" id="phone_number" />
+        <label for="phone_number">Phone</label>
+            <input type="tel" name="phone_number" id="phone_number" required>
 
         <label for="user_email">Email</label>
-        <input type="email" name="email" id="user_email" />
+            <input type="email" name="email" id="user_email" required>
 
         <label for="comment">Comment</label>
-        <input type="text" name="comment" id="comment" />
+            <textarea name="comment" id="comment" rows="4"></textarea>
     
-        <form>
-                <input type="checkbox" name="accept" value="accept" class="checkbox">
-                I accept the terms and conditions of the <a href="#">Privacy Policy</a>
-        </form>
+            <div class="terms-conditions">
+                <input type="checkbox" name="accept" id="accept" required>
+                <label for="accept">
+                    I accept the terms and conditions of the  <a href="#">Privacy Policy</a>
+                </label>
+            </div>
 
-        <button class="send">Send</button>
+            <button type="submit" class="send">Send</button>
     </form>
     </div>
 </div>
