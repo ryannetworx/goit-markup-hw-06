@@ -319,12 +319,24 @@ h3 {
 
 /* Modal area */
 
-.form-group {
-    margin-bottom: 10px; /* Adjust margin as needed to control space between labels and inputs */
+
+/* Other input fields */
+/* .input {
+    width: 360px;
+    height: 35px;
+    top: 84px;
+    border-radius: 4px;
+    border: 1px solid #4D5AE5; /* Default border color
+    transition: border-color 0.3s; /* Smooth transition for the border color */
+
+
+/* Apply the focus style to all input fields with class .input when focused */
+.input:focus {
+    border-color: #4D5AE5; /* Change border color when active */
 }
 
-.form-group input:focus {
-    border: 1px solid #4D5AE5;
+.form-group {
+    margin-bottom: 10px; /* Adjust margin as needed to control space between labels and inputs */
 }
 
 /* Styling for input fields with specific IDs */
@@ -346,13 +358,13 @@ form label {
     height: 35px;
     top: 84px;
     border-radius: 4px;
-    border: 1px solid #2E2F42; /* Default border color */
-    transition: border-color 0.3s; /* Smooth transition for the border color */
+    border: 1px solid #8E8F99; /* Default border color */
+    /* transition: border-color 0.3s; Smooth transition for the border color */
 }
 
-#name:focus, #phone_number:focus, #user_email:focus {
+/* #name:focus, #phone_number:focus, #user_email:focus {
     border-color: #4D5AE5; /* Change border color when active */
-}
+
 
 .icon-name {
     background-image: url('images/img/name-icon.png');
@@ -381,9 +393,9 @@ form label {
     background-size: 20px 15px;
 }
 
-.icon-name:focus, .icon-phone:focus, .icon-email:focus {
+/* .icon-name:focus, .icon-phone:focus, .icon-email:focus {
     border: 1px solid #4D5AE5; /* Change border color when active */
-}
+
 
 /* Styling for the comment textarea */
 #comment {

@@ -12,6 +12,8 @@ function openModal() {
 // Function to close the modal
 function closeModal() {
   modalOverlay.style.display = 'none';
+// Set focus to the input field with autofocus
+  document.getElementById('name').focus();
 }
 
 // Event listeners
@@ -31,7 +33,3 @@ document.addEventListener('keydown', function (event) {
     closeModal();
   }
 });
-
-
-
-
