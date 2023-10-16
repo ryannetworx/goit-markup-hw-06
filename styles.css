@@ -366,7 +366,7 @@ h3 {
 #phone_number:valid,
 #user_email:valid {
     border-color: #4D5AE5;
-    transition: border-color 0.3s;
+    /* transition: border-color 0.3s; */
 }
 
 .icon-name {
@@ -375,10 +375,6 @@ h3 {
     background-position: 10px center;
     padding-left: 35px;
     background-size: 20px 20px;
-}
-
-#name:focus + .icon-name {
-    background-image: url('images/img/name-icon-2.png');
 }
 
 .icon-phone {
@@ -390,10 +386,6 @@ h3 {
     background-size: 20px 20px;
 }
 
-#name:focus + .icon-phone {
-    background-image: url('images/img/phone-icon-2.png');
-}
-
 .icon-email {
     background-image: url('images/img/email-icon.png');
     background-repeat: no-repeat;
@@ -403,7 +395,14 @@ h3 {
     background-size: 20px 15px;
 }
 
-#user_email:focus + .icon-email {
+.icon-name:focus {
+    background-image: url('images/img/name-icon-2.png');
+}
+
+.icon-phone:focus {
+    background-image: url('images/img/phone-icon-2.png')
+}
+.icon-email:focus {
     background-image: url('images/img/email-icon-2.png');
 }
 
