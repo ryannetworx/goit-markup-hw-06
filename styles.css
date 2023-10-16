@@ -377,6 +377,10 @@ h3 {
     background-size: 20px 20px;
 }
 
+#name:focus + .icon-name {
+    background-image: url('images/img/name-icon-2.png');
+}
+
 .icon-phone {
     background-image: url('images/img/phone-icon.png');
     background-repeat: no-repeat;
@@ -384,6 +388,10 @@ h3 {
     padding-left: 35px;
     background-color: #FCFCFC;
     background-size: 20px 20px;
+}
+
+#name:focus + .icon-phone {
+    background-image: url('images/img/phone-icon-2.png');
 }
 
 .icon-email {
@@ -395,9 +403,8 @@ h3 {
     background-size: 20px 15px;
 }
 
-#phone_number:focus ~ .icon-phone,
-#user_email:focus ~ .icon-email {
-    background-color: #4D5AE5;
+#user_email:focus + .icon-email {
+    background-image: url('images/img/email-icon-2.png');
 }
 
 /* Styling for the comment textarea */
