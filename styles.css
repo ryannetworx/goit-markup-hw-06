@@ -319,6 +319,15 @@ h3 {
 
 /* Modal area */
 
+.form-input {
+    padding: 8px;
+    border: 1px solid #2a2a2a;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 16px;
+    outline: none;
+}
+
 form label {
     display: block;
     font-family: "Roboto", sans-serif;
@@ -345,31 +354,31 @@ form label {
     /* transition: border-color 0.3s; Smooth transition for the border color */
 }
 
-/* Change border color when focused
-input:focus {
-  border-color: #4D5AE5;
+#name:focus,
+#phone_number:focus,
+#user_email:focus,
+/* #comment:focus,
+#comment:valid, */
+#name:valid,
+#phone_number:valid,
+#user_email:valid {
+    border-color: #4D5AE5;
+    transition: border-color 0.3s;
 }
- */
-/* Change border color when valid
-input:valid {
-  border-color: #4D5AE5; Change this to your desired valid state color
+
+/* #name:active, #phone_number:active, #user_email:active {
+    border-color: #4D5AE5;
+    transition: border-color 0.1s;
 } */
 
-/* .form-group:focus,
-.form-group:active {
-    border-color: #4D5AE5;
-    transition: border-color 0.3s;
+/* input:focus {
+    border-color: blue;
 } */
 
-#name:focus, #phone_number:focus, #user_email:focus, #name:valid, #phone_number:valid, #user_email:valid {
-    border-color: #4D5AE5;
-    transition: border-color 0.3s;
-}
-
-#name:hover, #phone_number:hover, #user_email:hover {
-    border-color: #4D5AE5;
-    transition: border-color 0.3s;
-}
+/* #inputfield:active,
+#inputfield:focus {
+    border-color: red;
+} */
 
 .icon-name {
     background-image: url('images/img/name-icon.png');
@@ -408,6 +417,11 @@ input:valid {
     padding-top: 10px; /* Set the top margin to 5px */
     padding-left: 15px; /* Set the left margin to 5px */
     padding-right: 15px
+}
+
+#comment:active {
+    border-color: #4D5AE5;
+    transition: border-color 0.1s;
 }
 
 .terms-conditions {
