@@ -1084,7 +1084,63 @@ footer {
     }
 }
 
+.subscribe {
+    position: relative;
+}
 
+.subscribe-label {
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+#subscribe_email {
+    width: 264px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    background-color: transparent;
+    color: #FFFFFF; /* Text color */
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+#subscribe_email::placeholder {
+    color: #FFFFFF; /* Font color for the placeholder */
+    padding: 10px;  /* Padding for the placeholder text */
+}
+
+.subscribe-btn {
+    width: 200px;
+    height: 56px;
+    top: 584px;
+    left: 635px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    gap: 10px;
+    margin-left: 30px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px #00000026;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 20px;
+}
 
 /* Additional Styling for the footer as needed*/
 
