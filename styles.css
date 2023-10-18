@@ -1072,7 +1072,7 @@ footer {
 
 .subscribe {
     justify-content: space-between;
-    width: 453px;
+    width: auto;
     height: 80px;
     top: 100px; /* Note: This is a position property, make sure the container is in a position:relative or absolute context */
     left: 828px; /* Note: This is also a position property */
@@ -1125,7 +1125,7 @@ footer {
 }
 
 .subscribe-btn {
-    width: 250px;
+    max-width: 250px;
     height: 50px;
     left: 635px;
     padding: 16px 32px;
