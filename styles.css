@@ -51,6 +51,8 @@ h3 {
     letter-spacing: 2%;
     line-height: 24px;
     color: var(--primary-body-color);
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -59,7 +61,7 @@ h3 {
 }
 
 .team1,
-.customers,
+.customers
 .footer {
     width: 100%;
 }
@@ -912,26 +914,26 @@ input, textarea {
 
 /* END of CUSTOMERS */
 
-
-
 /* Footer Styles */
 footer {
     width: 100%;
-    height: 300px;
+    height: 280px;
     background: #2E2F42;
     padding: 40px 0;
     margin-top: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     /* align-items: flex-start; Align elements at the top */
     flex-wrap: wrap;
 }
 
 .footer-div {
+    /* max-width: 1440px; */
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    padding: 0 20px;
 }
 
 .footer-list-container {
@@ -1071,14 +1073,15 @@ footer {
 }
 
 .subscribe {
-    justify-content: space-between;
-    width: auto;
-    height: 80px;
-    top: 100px; /* Note: This is a position property, make sure the container is in a position:relative or absolute context */
-    left: 828px; /* Note: This is also a position property */
+    /* justify-content: space-between; */
+    width: 100%;
+    max-width: none;
+    height: auto;
+    top: auto; /* Note: This is a position property, make sure the container is in a position:relative or absolute context */
+    left: auto; /* Note: This is also a position property */
     border-radius: 4px;
-    gap: 16px;
-    margin-top: 70px; /* Add 50px distance from the top */
+    /* gap: 16px; */
+    margin-top: 68px; /* Add 50px distance from the top */
     margin-right: 100px;
 }
 
@@ -1132,7 +1135,7 @@ footer {
     padding: 16px 32px;
     border-radius: 4px;
     gap: 20px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     background: #4D5AE5;
     box-shadow: 0px 4px 4px 0px #00000026;
     font-family: "Roboto", sans-serif;
@@ -1144,7 +1147,7 @@ footer {
     color: #FFFFFF;
     border: none;
     margin-top: 20px;
-    margin-left: auto;
+    /* margin-left: auto; */
     display: flex;
     cursor: pointer; /* Add this line to change cursor on hover */
 }
@@ -1157,39 +1160,6 @@ footer {
 .subscribe-btn:hover,
 .subscribe-btn:active {
     background: var(--pressed-state-color);
-}
-
-
-@media (max-width: 768px) {
-    footer {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    /* Center the headings on smaller screens */
-    .footer-social h4 {
-        text-align: center; /* Center-align the "Social Media" heading when screen is smaller */
-    }
-
-    .footer-social {
-        margin-top: 0;
-        margin-left: 0; /* Remove the top and left margin on smaller screens */
-        justify-content: center; /* Center the social media icons horizontally */
-    }
-    
-    .footer-social-container {
-        text-align: center; /* Center-align the ul on smaller screens */
-    }
-
-    .subscribe {
-        flex-direction: column; /* Stack elements vertically */
-        align-items: flex-start; /* Align elements to the left */
-        margin-top: 20px; /* Adjust margin as needed */
-    }
-
-    .subscribe-btn {
-        margin-top: 20px; /* Add space between input and button */
-    }
 }
 
 /* Additional Styling for the footer as needed*/
