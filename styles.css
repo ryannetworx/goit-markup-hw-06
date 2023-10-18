@@ -1076,12 +1076,9 @@ footer {
     top: 100px; /* Note: This is a position property, make sure the container is in a position:relative or absolute context */
     left: 828px; /* Note: This is also a position property */
     border-radius: 4px;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
     gap: 16px;
-    margin-top: 50px; /* Add 50px distance from the top */
-    margin-left: 5px; /* Add 50px distance from the left */
+    margin-top: 70px; /* Add 50px distance from the top */
 }
 
 .subscribe-label {
@@ -1097,12 +1094,8 @@ footer {
 }
 
 .subscribe-input {
-    /* display: flex; */
-    /* Align the input to the left and add margin-top to create space below the label */
-    /* text-align: left; */
-    margin-top: 140px; /* Adjust the margin as needed */
+    margin-top: 20px;
     margin-left: 0px;
-    position: relative;
 }
 
 #subscribe_email {
