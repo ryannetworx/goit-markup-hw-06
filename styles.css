@@ -1160,26 +1160,6 @@ footer {
     background: var(--pressed-state-color);
 }
 
-/* For small screens and above */
-@media screen and (max-width: 768px) {
-    .footer-div {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer-logo,
-    .footer-social,
-    .subscribe {
-        align-items: center;
-        width: 100%;
-        height: auto;
-    }
-
-    .subscribe-label {
-        margin-top: 20px;
-    }
-}
-
 
 
 /* PORTFOLIO ******************************** */
