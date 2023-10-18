@@ -1079,6 +1079,9 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 16px;
+    margin-top: 50px; /* Add 50px distance from the top */
+    margin-left: 5px; /* Add 50px distance from the left */
 }
 
 .subscribe-label {
@@ -1090,23 +1093,32 @@ footer {
     letter-spacing: 0.02em;
     text-align: left;
     color: #FFFFFF;
-    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.subscribe-input {
+    /* display: flex; */
+    /* Align the input to the left and add margin-top to create space below the label */
+    /* text-align: left; */
+    margin-top: 140px; /* Adjust the margin as needed */
+    margin-left: 0px;
+    position: relative;
 }
 
 #subscribe_email {
     width: 264px;
-    height: 40px;
+    height: 30px;
     border-radius: 4px;
     border: 1px solid #FFFFFF;
     box-shadow: 0px 4px 4px 0px #00000026;
     background-color: transparent;
-    color: #FFFFFF; /* Text color */
+    color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
-    margin-right: 10px;
+    text-align: left;
 }
 
 #subscribe_email::placeholder {
