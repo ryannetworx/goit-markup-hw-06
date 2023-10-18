@@ -1071,12 +1071,12 @@ footer {
 }
 
 .subscribe {
+    justify-content: space-between;
     width: 453px;
     height: 80px;
     top: 100px; /* Note: This is a position property, make sure the container is in a position:relative or absolute context */
     left: 828px; /* Note: This is also a position property */
     border-radius: 4px;
-    justify-content: space-between;
     gap: 16px;
     margin-top: 70px; /* Add 50px distance from the top */
 }
@@ -1093,9 +1093,14 @@ footer {
     margin-top: 20px;
 }
 
+.email-subscribe-btns {
+    display: flex;
+}
+
 .subscribe-input {
     margin-top: 20px;
     margin-left: 0px;
+    padding-right: 20px;
 }
 
 #subscribe_email {
@@ -1120,13 +1125,12 @@ footer {
 }
 
 .subscribe-btn {
-    width: 200px;
-    height: 56px;
-    top: 584px;
+    width: 250px;
+    height: 50px;
     left: 635px;
     padding: 16px 32px;
     border-radius: 4px;
-    gap: 10px;
+    gap: 20px;
     margin-left: 30px;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px 0px #00000026;
@@ -1140,6 +1144,18 @@ footer {
     border: none;
     margin-top: 20px;
     margin-left: auto;
+    display: flex;
+    cursor: pointer; /* Add this line to change cursor on hover */
+}
+
+.subscribe-btn img {
+    width: 24px;
+    height: 24px;
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:active {
+    background: var(--pressed-state-color);
 }
 
 @media (max-width: 768px) {

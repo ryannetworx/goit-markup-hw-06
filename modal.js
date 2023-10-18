@@ -33,3 +33,8 @@ document.addEventListener('keydown', function (event) {
     closeModal();
   }
 });
+
+// Add an event listener for clearing the placeholder
+inputField.addEventListener('input', function() {
+  clearPlaceholder(inputField);
+});
